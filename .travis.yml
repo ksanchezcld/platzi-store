@@ -13,6 +13,8 @@ script:
     - yarn build
 
 notifications:
+  slack: addon-is:t8VlsOXa2pdMtKP34JBoSNrH
+  
   email:
     recipients:
         - pokoyo.saz@gmail.com
